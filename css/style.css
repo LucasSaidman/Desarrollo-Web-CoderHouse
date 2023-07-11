@@ -18,7 +18,7 @@
 
 
 /* Start Nav */
-    nav{
+    .botonera{
         background-color: rgba(0, 0, 0, 0.950);
     }
 
@@ -120,10 +120,6 @@
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
         }
 
-    .p-f1{
-        margin-bottom: 1%;
-    }
-
     .h2-f1{
         margin-top: 50px;
     }
@@ -138,6 +134,10 @@
         border: none;
         overflow-y: auto;
     }
+
+        .f1-store p{
+            margin-bottom: 1%;
+        }
 
 
 /* Footer */

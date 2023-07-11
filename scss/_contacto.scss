@@ -1,0 +1,46 @@
+// Start Formulario de Contacto
+
+    .container-contacto{
+        max-width: 960px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        form{
+            display: flex;
+            flex-direction: column;
+            input{
+                margin-bottom: 10px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            textarea{
+                margin-bottom: 10px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            button{
+                color: white;
+                background-color: black;
+                border: none;
+                &:hover{
+                    background-color: $hoverColor;
+                }
+            }
+        }
+    }
+
+// End Formulario de Contacto
+
+
+// Start Google Maps
+
+    .maps{
+        width: 960px;
+        height: 400px;
+    }
+
+// End Google Maps

@@ -1,0 +1,43 @@
+// Start Nav
+
+.botonera{
+    background-color: $navColor;
+    div{
+        a{
+            img{
+                width: 250px;
+            }
+        }
+        button{
+            border: none;
+            background-color: #555;
+            &:hover{
+                background-color: $hoverColor;
+            }
+        }
+        div{
+            ul{
+                li{
+                    a{
+                        color: white;
+                        &:hover{
+                            background-color: $hoverColor;
+                        }
+                    }
+                }
+            }
+            form{
+                button{
+                    color: white;
+                    background-color: #555;
+                    border: none;
+                    &:hover{
+                        background-color: $hoverColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End Nav

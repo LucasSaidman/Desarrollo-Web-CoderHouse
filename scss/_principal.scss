@@ -1,0 +1,50 @@
+.merch{
+    margin-bottom: 50px;
+}
+
+.productos-destacados{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    figure{
+        background-color: rgb(8, 7, 7, 0.1);
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.tienda-home{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    a{
+        figure{
+            background-color: rgb(8, 7, 7, 0.1);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.h2-f1{
+    margin-top: 50px;
+}
+
+.f1-store{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 98%;
+    max-height: 150px;
+    border: none;
+    overflow-y: auto;
+    p{
+        margin-bottom: 1%;
+    }
+}

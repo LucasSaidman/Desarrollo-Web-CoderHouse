@@ -1,0 +1,65 @@
+// Start Selectores Universales
+
+*{
+    font-family: $mainFont;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: $backgroundImage;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+// End Selectores Universales
+
+
+// Start Selectores
+
+h1{
+    font-size: 2em;
+    margin: 30px;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.1em;
+}
+
+h2{
+    margin: 30px;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+.contenedor-imagenes{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+// End Selectores
+
+
+// Start Header
+
+header{
+    img{
+        width: 100%;
+    }
+}
+
+// End Header

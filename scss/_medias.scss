@@ -1,0 +1,145 @@
+// Start Media Queries
+
+@media (max-width: 450px){
+    .botonera{
+        div{
+            a{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    .tienda{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: 
+        "filters" 
+        "prod1"
+        "prod2" 
+        "prod3" 
+        "prod4"
+        "prod5"
+        "prod6"
+        "prod7"
+        "prod8";
+    }
+
+    .container-contacto{
+        width: 80%;
+    }
+
+    .maps{
+        width: 80%;
+        height: 200px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
+        grid-template-areas: 
+        "link5" 
+        "link3"
+        "link4" 
+        "link6"
+        "link7"
+        "link8"
+        "link1"
+        "link2";
+    }
+}
+
+@media (min-width: 451px) and (max-width: 630px){
+    .botonera{
+        div{
+            a{
+                img{
+                    width: 225px;
+                }
+            }
+        }
+    }
+
+    .tienda{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: repeat(8, auto);
+        grid-template-areas: 
+        "filters prod1"
+        "filters prod2" 
+        "filters prod3" 
+        "filters prod4"
+        "filters prod5"
+        "filters prod6"
+        "filters prod7"
+        "filters prod8";
+    }
+
+    .container-contacto{
+        width: 80%;
+    }
+
+    .maps{
+        width: 80%;
+        height: 300px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "link7 link5"
+        "link8 link3"
+        "link1 link4"
+        "link2 link6";
+    }
+}
+
+@media (min-width: 631px) and (max-width: 1050px){
+    .botonera{
+        div{
+            a{
+                img{
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .tienda{
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "filters prod1 prod2" 
+        "filters prod3 prod4"
+        "filters prod5 prod6"
+        "filters prod7 prod8";
+    }
+
+    .container-contacto{
+        width: 80%;
+    }
+
+    .maps{
+        width: 80%;
+        height: 400px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "link7 link5"
+        "link8 link3"
+        "link1 link4"
+        "link2 link6";
+    }
+}
+
+// End Media Queries

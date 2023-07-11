@@ -1,0 +1,106 @@
+.tienda{
+    display: grid;
+    grid-template-columns: 12% 22% 22% 22% 22%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "filters prod1 prod2 prod3 prod4"
+    "filters prod5 prod6 prod7 prod8";
+    section{
+        figure{
+            background-color: rgb(8, 7, 7, 0.1);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.products{
+    display: flex;
+    figure{
+        background-color: rgb(8, 7, 7, 0.1);
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        margin: 20px;
+        img{
+            width: 100%;
+        }
+        figcaption{
+            font-size: 20px;
+        }
+    }
+    button{
+        color: white;
+        background-color: rgb(8, 7, 7, 0.9);
+        border: none;
+        &:hover{
+            background-color: $hoverColor;
+        }
+    }
+}
+
+// Start Filters
+
+.filters{
+    padding: 0 20px 30px 30px;
+    text-align: start;
+    span{
+        display: block;
+        b{
+            font-size: 20px;
+        }
+    }
+    ul{
+        li{
+            list-style: none;
+            padding-left: 10px;
+            a{
+                text-decoration: none;
+                color: rgb(59, 59, 59);
+                &:hover{
+                    color: $hoverColor;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+// End Filters
+
+
+// Start Grid Products
+
+    .tienda{
+        .filters{
+            grid-area: filters;
+        }
+        .prod1{
+            grid-area: prod1;
+        }
+        .prod2{
+            grid-area: prod2;
+        }
+        .prod3{
+            grid-area: prod3;
+        }
+        .prod4{
+            grid-area: prod4;
+        }
+        .prod5{
+            grid-area: prod5;
+        }
+        .prod6{
+            grid-area: prod6;
+        }
+        .prod7{
+            grid-area: prod7;
+        }
+        .prod8{
+            grid-area: prod8;
+        }
+    }
+
+// End Grid Products

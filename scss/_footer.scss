@@ -1,0 +1,77 @@
+// Start Footer
+
+footer{
+    div{
+        a{
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.footer{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 2em 0em;
+    background-color: $footerColor;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "link1 link3 link5 link7"
+    "link2 link4 link6 link8";
+    li{
+        a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            &:hover{
+                color: $hoverColor;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+    // Start Footer Grid
+
+        .footer{
+            .link1{
+                grid-area: link1;
+            }
+            .link2{
+                grid-area: link2;
+            }
+            .link3{
+                grid-area: link3;
+            }
+            .link4{
+                grid-area: link4;
+            }
+            .link5{
+                grid-area: link5;
+            }
+            .link6{
+                grid-area: link6;
+            }
+            .link7{
+                grid-area: link7;
+            }
+            .link8{
+                grid-area: link8;
+            }
+        }
+
+    // End Footer Grid
+
+// End Footer
