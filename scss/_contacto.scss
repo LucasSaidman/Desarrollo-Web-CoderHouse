@@ -27,7 +27,7 @@
                 background-color: black;
                 border: none;
                 &:hover{
-                    background-color: $hoverColor;
+                    @include booton-hover($hoverColor)
                 }
             }
         }

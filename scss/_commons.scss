@@ -39,16 +39,20 @@ h3{
     display: flex;
 }
 
+@mixin text ($align){
+    text-align: $align;
+}
+
 .text-center{
-    text-align: center;
+    @include text(center)
 }
 
 .text-left{
-    text-align: left;
+    @include text(left)
 }
 
 .text-right{
-    text-align: right;
+    @include text(right)
 }
 
 // End Selectores
@@ -63,3 +67,11 @@ header{
 }
 
 // End Header
+
+// Start Mixins
+
+@mixin booton-hover($bcolor){
+    background-color: $bcolor;
+}
+
+// End Mixins
