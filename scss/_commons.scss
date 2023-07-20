@@ -68,10 +68,19 @@ header{
 
 // End Header
 
+
 // Start Mixins
 
-@mixin booton-hover($bcolor){
+@mixin animation-hover($acolor, $time, $escala){
+    color: $acolor;
+    transition: all $time ease;
+    transform: scale($escala);
+}
+
+@mixin animation-bhover($bcolor, $btime, $bescala){
     background-color: $bcolor;
+    transition: all $btime ease;
+    transform: scale($bescala);
 }
 
 // End Mixins

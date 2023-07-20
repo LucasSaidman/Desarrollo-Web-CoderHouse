@@ -55,18 +55,26 @@ header img {
 .botonera div a img {
   width: 250px;
 }
+.botonera div a img:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.03);
+}
 .botonera div button {
   border: none;
   background-color: #555;
 }
 .botonera div button:hover {
   background-color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1);
 }
 .botonera div div ul li a {
   color: white;
 }
 .botonera div div ul li a:hover {
   color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1.1);
 }
 .botonera div div form button {
   color: white;
@@ -75,6 +83,8 @@ header img {
 }
 .botonera div div form button:hover {
   background-color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1);
 }
 
 .merch {
@@ -106,6 +116,11 @@ header img {
 }
 .tienda-home a figure img {
   width: 100%;
+}
+.tienda-home a figure:hover {
+  color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1.1);
 }
 
 .h2-f1 {
@@ -156,6 +171,11 @@ header img {
 .products figure figcaption {
   font-size: 20px;
 }
+.products figure:hover {
+  color: black;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
 .products button {
   color: white;
   background-color: rgba(8, 7, 7, 0.9);
@@ -163,6 +183,8 @@ header img {
 }
 .products button:hover {
   background-color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1.1);
 }
 
 .filters {
@@ -170,22 +192,32 @@ header img {
   text-align: start;
 }
 .filters span {
+  color: rgb(0, 0, 0);
   display: block;
 }
 .filters span b {
   font-size: 20px;
 }
-.filters ul li {
+.filters nav div button {
+  background-color: #555;
+}
+.filters nav div button:hover {
+  background-color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+.filters section div ul li {
   list-style: none;
   padding-left: 10px;
 }
-.filters ul li a {
+.filters section div ul li a {
   text-decoration: none;
-  color: rgb(59, 59, 59);
+  color: rgb(0, 0, 0);
 }
-.filters ul li a:hover {
+.filters section div ul li a:hover {
   color: rgb(255, 0, 0);
-  font-weight: bold;
+  transition: all 0.1s ease;
+  transform: scale(1);
 }
 
 .tienda .filters {
@@ -247,6 +279,8 @@ header img {
 }
 .container-contacto form button:hover {
   background-color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1.01);
 }
 
 .maps {
@@ -263,6 +297,10 @@ footer div a img {
   display: flex;
   justify-content: space-evenly;
   margin: 25px;
+}
+.redes a img:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
 }
 
 .footer {
@@ -284,7 +322,8 @@ footer div a img {
 }
 .footer li a:hover {
   color: rgb(255, 0, 0);
-  font-weight: bold;
+  transition: all 0.1s ease;
+  transform: scale(1);
 }
 
 .footer .link1 {

@@ -27,7 +27,7 @@
                 background-color: black;
                 border: none;
                 &:hover{
-                    @include booton-hover($hoverColor)
+                    @include animation-bhover($hoverColor, 0.3s, 1.01)
                 }
             }
         }

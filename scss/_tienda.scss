@@ -30,13 +30,16 @@
         figcaption{
             font-size: 20px;
         }
+        &:hover{
+            @include animation-hover(black, 0.3s, 1.1)
+        }
     }
     button{
         color: white;
         background-color: rgb(8, 7, 7, 0.9);
         border: none;
         &:hover{
-            @include booton-hover($hoverColor)
+            @include animation-bhover($hoverColor, 0.3s, 1.1)
         }
     }
 }
@@ -47,21 +50,35 @@
     padding: 0 20px 30px 30px;
     text-align: start;
     span{
+        color: rgb(0, 0, 0);
         display: block;
         b{
             font-size: 20px;
         }
     }
-    ul{
-        li{
-            list-style: none;
-            padding-left: 10px;
-            a{
-                text-decoration: none;
-                color: rgb(59, 59, 59);
+    nav{
+        div{
+            button{
+                background-color: #555;
                 &:hover{
-                    color: $hoverColor;
-                    font-weight: bold;
+                    @include animation-bhover($hoverColor, 0.3s, 1.1)
+                }
+            }
+        }
+    }
+    section{
+        div{
+            ul{
+                li{
+                    list-style: none;
+                    padding-left: 10px;
+                    a{
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        &:hover{
+                            @include animation-hover($hoverColor, 0.1s, 1)
+                        }
+                    }
                 }
             }
         }

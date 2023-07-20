@@ -6,13 +6,17 @@
         a{
             img{
                 width: 250px;
+                &:hover{
+                    transition: all 0.5s ease;
+                    transform: scale(1.03);
+                }
             }
         }
         button{
             border: none;
             background-color: #555;
             &:hover{
-                @include booton-hover($hoverColor)
+                @include animation-bhover($hoverColor, 0.3s, 1)
             }
         }
         div{
@@ -21,7 +25,7 @@
                     a{
                         color: white;
                         &:hover{
-                            color: $hoverColor;
+                            @include animation-hover($hoverColor, 0.3s, 1.1)
                         }
                     }
                 }
@@ -32,7 +36,7 @@
                     background-color: #555;
                     border: none;
                     &:hover{
-                        @include booton-hover($hoverColor)
+                        @include animation-bhover($hoverColor, 0.3s, 1)
                     }
                 }
             }
