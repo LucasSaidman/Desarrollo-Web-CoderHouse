@@ -24,8 +24,10 @@
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
         padding: 10px;
         margin: 20px;
-        img{
-            width: 100%;
+        a{
+            img{
+                width: 100%;
+            }
         }
         figcaption{
             font-size: 20px;
@@ -33,13 +35,13 @@
         &:hover{
             @include animation-hover(black, 0.3s, 1.1)
         }
-    }
-    button{
-        color: white;
-        background-color: rgb(8, 7, 7, 0.9);
-        border: none;
-        &:hover{
-            @include animation-bhover($hoverColor, 0.3s, 1.1)
+        button{
+            color: white;
+            background-color: rgb(8, 7, 7, 0.9);
+            border: none;
+            &:hover{
+                @include animation-bhover($hoverColor, 0.3s, 1.1)
+            }
         }
     }
 }

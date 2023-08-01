@@ -50,6 +50,25 @@
         "link1"
         "link2";
     }
+
+    .error-404{
+        width: 90%;
+        height: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .carrito{
+        width: 30%;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 35%;
+        margin-right: 35%;
+        img{
+            width: 24px;
+            height: auto;
+        }
+    }
 }
 
 @media (min-width: 451px) and (max-width: 630px){
@@ -97,9 +116,28 @@
         "link1 link4"
         "link2 link6";
     }
+
+    .error-404{
+        width: 90%;
+        height: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .carrito{
+        width: 30%;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 35%;
+        margin-right: 35%;
+        img{
+            width: 32px;
+            height: auto;
+        }
+    }
 }
 
-@media (min-width: 631px) and (max-width: 1050px){
+@media (min-width: 631px) and (max-width: 991px){
     .botonera{
         div{
             a{
@@ -139,6 +177,25 @@
         "link8 link3"
         "link1 link4"
         "link2 link6";
+    }
+
+    .error-404{
+        width: 70%;
+        height: auto;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .carrito{
+        width: 30%;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 35%;
+        margin-right: 35%;
+        img{
+            width: 32px;
+            height: auto;
+        }
     }
 }
 

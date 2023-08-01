@@ -38,9 +38,9 @@ footer{
     "link1 link3 link5 link7"
     "link2 link4 link6 link8";
     li{
+        display: flex;
+        justify-content: center;
         a{
-            display: flex;
-            justify-content: center;
             text-decoration: none;
             color: rgb(0, 0, 0);
             &:hover{

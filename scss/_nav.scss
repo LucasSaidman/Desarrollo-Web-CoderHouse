@@ -38,9 +38,25 @@
                     &:hover{
                         @include animation-bhover($hoverColor, 0.3s, 1)
                     }
+                    img{
+                        width: 24px;
+                        height: auto;
+                    }
                 }
             }
         }
+    }
+}
+
+.carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.1px 12px;
+    margin-left: 0.5em;
+    img{
+        width: 24px;
+        height: auto;
     }
 }
 

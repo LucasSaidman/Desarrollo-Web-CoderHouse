@@ -69,6 +69,18 @@ header{
 // End Header
 
 
+// Start Error 404
+
+    .error-404{
+        width: 50%;
+        height: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+// End Error 404
+
+
 // Start Mixins
 
 @mixin animation-hover($acolor, $time, $escala){

@@ -49,6 +49,13 @@ header img {
   width: 100%;
 }
 
+.error-404 {
+  width: 50%;
+  height: auto;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
 .botonera {
   background-color: rgba(0, 0, 0, 0.95);
 }
@@ -86,6 +93,22 @@ header img {
   transition: all 0.3s ease;
   transform: scale(1);
 }
+.botonera div div form button img {
+  width: 24px;
+  height: auto;
+}
+
+.carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7.1px 12px;
+  margin-left: 0.5em;
+}
+.carrito img {
+  width: 24px;
+  height: auto;
+}
 
 .merch {
   margin-bottom: 50px;
@@ -96,13 +119,18 @@ header img {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.productos-destacados figure {
+.productos-destacados a figure {
   background-color: rgba(8, 7, 7, 0.1);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-.productos-destacados figure img {
+.productos-destacados a figure img {
   width: 100%;
+}
+.productos-destacados a figure:hover {
+  color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  transform: scale(1.05);
 }
 
 .tienda-home {
@@ -165,7 +193,7 @@ header img {
   padding: 10px;
   margin: 20px;
 }
-.products figure img {
+.products figure a img {
   width: 100%;
 }
 .products figure figcaption {
@@ -176,12 +204,12 @@ header img {
   transition: all 0.3s ease;
   transform: scale(1.1);
 }
-.products button {
+.products figure button {
   color: white;
   background-color: rgba(8, 7, 7, 0.9);
   border: none;
 }
-.products button:hover {
+.products figure button:hover {
   background-color: rgb(255, 0, 0);
   transition: all 0.3s ease;
   transform: scale(1.1);
@@ -314,9 +342,11 @@ footer div a img {
   grid-template-rows: repeat(2, auto);
   grid-template-areas: "link1 link3 link5 link7" "link2 link4 link6 link8";
 }
-.footer li a {
+.footer li {
   display: flex;
   justify-content: center;
+}
+.footer li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -374,6 +404,23 @@ footer div a img {
     grid-template-rows: repeat(8, auto);
     grid-template-areas: "link5" "link3" "link4" "link6" "link7" "link8" "link1" "link2";
   }
+  .error-404 {
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .carrito {
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .carrito img {
+    width: 24px;
+    height: auto;
+  }
 }
 @media (min-width: 451px) and (max-width: 630px) {
   .botonera div a img {
@@ -398,8 +445,25 @@ footer div a img {
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "link7 link5" "link8 link3" "link1 link4" "link2 link6";
   }
+  .error-404 {
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .carrito {
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .carrito img {
+    width: 32px;
+    height: auto;
+  }
 }
-@media (min-width: 631px) and (max-width: 1050px) {
+@media (min-width: 631px) and (max-width: 991px) {
   .botonera div a img {
     width: 250px;
   }
@@ -421,6 +485,23 @@ footer div a img {
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "link7 link5" "link8 link3" "link1 link4" "link2 link6";
+  }
+  .error-404 {
+    width: 70%;
+    height: auto;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  .carrito {
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .carrito img {
+    width: 32px;
+    height: auto;
   }
 }
 
