@@ -42,5 +42,5 @@ Las páginas que son responsives son INDEX, HOMBRES, MUJERES, NIÑOS, CONTACTO y
  
  Deployment de GitHub Pages: https://lucassaidman.github.io/Desarrollo-Web-CoderHouse/
  
- Deployment de Netifly: https://f1store-arg.netlify.app/
+ Deployment de Netlify: https://f1store-arg.netlify.app/
  
