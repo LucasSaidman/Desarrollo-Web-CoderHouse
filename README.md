@@ -7,7 +7,7 @@ Por Lucas Saidman
 F1 Store Arg es un proyecto de sitio web en el que se vende merchandising de fórmula 1.
 
 
-###### Aquí encontraremos 5 páginas principales:
+##### Aquí encontraremos 5 páginas principales:
 
 - Index:
 "Es la página principal, en donde podemos observar de manera resumida lo que encontraremos en el resto del sitio web."
